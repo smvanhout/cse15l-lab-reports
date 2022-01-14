@@ -8,8 +8,7 @@
 
 * 1. Here
 * 2. Is
-* 3. A
-* 4. List
+* 3. I changed this list item
 
 And some `inline code`
 
