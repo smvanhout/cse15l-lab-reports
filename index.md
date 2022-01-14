@@ -6,9 +6,9 @@
 > Example of a block quote
 > Adding another line of block
 
-* 1. Here
-* 2. Is
-* 3. I changed this list item
+* i. Here
+* ii. Above line is unchanged
+* iii. I changed this list item
 
 And some `inline code`
 
