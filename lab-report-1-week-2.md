@@ -32,5 +32,29 @@ Then type in your password and press enter (you will not be able to see letters 
 
 Step 3. **`Learning Commands`**
 
+Here are examples of some commands to try on both the remote and your local device:
+
+> 1. `cd` --> This changes the directory
+> 2. `cd` --> This changes directory to home
+> 3. `ls` --> This lists all files in current directory
+> 4. `ls -l` --> More info than `ls` includingdate modified
+
+Below is an exmaple of using `cd ~` on the local device. Note the change of directory
+
+![Image](cdExample.png)
+
+Step 4. **`Moving Files With scp`**
+
+If you want to move a file from your local computer to the remote, you can use the `scp` command. To move a file called `WhereAmI.java` to ieng6, use the following command:
+
+>$ scp WhereAmI.java cs15lwi22aaa@ieng6.ucsd.edu:~/
+
+This is what it will look like when you call `ls` while on the remote server after running the above scp command:
+
+![Image](scpExample.png)
+
+`WhereAmI.java` now shows up when files are listed on the remote because you have used `scp` to add it to the remote!
+
+Step 5. 
 
 
