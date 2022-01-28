@@ -94,3 +94,5 @@ Below is an example of using `ls` with ssh, and shows no files have been pushed 
 Additionally, to edit a file locally, then copy it to the remote server and run it, do the following. 
 
 `$ scp WhereAmI.java cs15lwi22aaa@ieng6.ucsd.edu:~/; javac WhereAmI.java; java WhereAmI`
+
+If you copy and paste this, then it takes 3 keystrokes (including enter) to work!
